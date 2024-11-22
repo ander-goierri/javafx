@@ -11,7 +11,6 @@ public class StudentModel {
     private SimpleStringProperty room;
     private SimpleIntegerProperty age;
 
-
     public StudentModel(Integer id, String firstName, String lastName, String room, Integer age) {
         this.id = new SimpleIntegerProperty(id);
         this.firstName = new SimpleStringProperty(firstName);
